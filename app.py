@@ -30,7 +30,7 @@ if prompt := st.chat_input("اسأل الصياد..."):
         }
         # هنا بنختار الموديل المجاني من OpenRouter
         data = {
-            "model": "google/gemma-2-9b-it:free", 
+            "model": "google/gemma-4-26b-a4b-it:free", 
             "messages": st.session_state.messages
         }
         
