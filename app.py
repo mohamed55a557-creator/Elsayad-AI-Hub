@@ -6,7 +6,7 @@ st.set_page_config(page_title="El-Sayyad AI", page_icon="🏹")
 st.title("🏹 El-Sayyad Chat Hub")
 
 # المتغيرات الأساسية
-API_KEY = st.secrets["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"]
+API_KEY = st.secrets["OPENROUTER_API_KEY"]
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 if "messages" not in st.session_state:
